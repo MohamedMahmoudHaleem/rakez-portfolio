@@ -1,0 +1,9 @@
+<!-- PLACEHOLDER favicon built from the starter RakeezMark paths. Replace with the designer's icon.svg. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="22" fill="#0b1220"/>
+  <g transform="translate(6 4) scale(0.88)">
+    <path d="M17 15H58C75 15 85 25 85 40C85 51 78 58 67 62L82 79H61L39 52H57C65 52 70 48 70 41C70 34 65 30 57 30H17V15Z" fill="#f8fafc"/>
+    <path d="M29 39L78 85H55L18 50L29 39Z" fill="#d4af37"/>
+    <path d="M18 57L40 79H20L10 68L18 57Z" fill="#a7b0bd"/>
+  </g>
+</svg>

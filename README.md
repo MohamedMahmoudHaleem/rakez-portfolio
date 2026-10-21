@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rakeez (ركيز) — Portfolio
 
-## Getting Started
-
-First, run the development server:
+Bilingual (EN/AR) studio portfolio · Next.js 15 · TypeScript strict · Tailwind v4 · next-intl · MDX.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run dev        # http://localhost:3000 → redirects to /en or /ar
+npm run lint && npx tsc --noEmit && npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Set `NEXT_PUBLIC_SHOW_TODO_PLACEHOLDERS=false` in production (see `.env.example`): it hides every
+`[TODO]`, unfinished case study and unnamed team member.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Where things live
+| Change | Edit |
+|---|---|
+| Studio name, contacts, SEO | `content/site.json` |
+| Page text (EN / AR) | `content/en.json`, `content/ar.json` |
+| Case studies | `content/projects/<slug>.<locale>.mdx` |
+| Team / lead experience | `content/team.json`, `content/experience.json` |
+| Images | `public/images/…` — see `IMAGES.md` (missing files show branded placeholders) |
+| Colors, fonts | `src/app/globals.css` (`@theme`) |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Docs: `docs/BUILD_BRIEF.md`, `docs/CODE_STANDARDS.md`, `docs/BRAND_REVIEW.md`.
 
-## Learn More
+## Tasks
 
-To learn more about Next.js, take a look at the following resources:
+### Done
+- [x] Next.js 15 + Tailwind v4 scaffold, starter kit integrated (extended, no parallel versions)
+- [x] `/en` + `/ar` routing, Accept-Language redirect, `lang`/`dir`, path-keeping language switch
+- [x] Header (focus-trapped mobile menu), footer, skip link
+- [x] Home: hero, services, selected work, process, experience strip, team, contact CTA
+- [x] Work list, case studies (MDX, framed gallery + keyboard lightbox, English fallback note)
+- [x] About, Contact (mailto form — no backend), 404
+- [x] Metadata, hreflang, OG images (`next/og`), sitemap, robots
+- [x] Testimonials render **only** when a real quote + author exist — never a placeholder
+- [x] Lint, typecheck, build pass; verified at 320px, RTL, keyboard
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [x] Light mode (toggle in header; saved per visitor, follows system on first visit)
+- [x] Hidden for now (commented, easy to restore): team section + nav link, phone, WhatsApp, case study links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Needs you (content — see `TODO.md`)
+- [ ] Freelance project 1 & 2: text, screenshots, links, real client quote (if any)
+- [ ] `about.intro` (EN + AR) and your photo `public/images/team/mohamed-haleem.jpg`
+- [ ] Team partners: names, bios, photos, LinkedIn, permission
+- [x] Response time confirmed ("same day")
+- [ ] Domain → `seo.siteUrl` in `content/site.json`
+- [ ] Designer logo SVGs + favicon (current mark and `src/app/icon.svg` are placeholders)
+- [ ] Final `hero.webp` / `hero-mobile.webp` (an SVG stand-in is drawn until then)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Open decisions
+- [ ] Build the optional `/concepts/real-estate` demo? (its "visit" link is hidden until it exists)
+- [ ] Arabic OG images need a bundled Arabic font; they currently reuse the English preview

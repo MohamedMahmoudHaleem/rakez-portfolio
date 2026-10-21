@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "work": "Work",
+    "team": "Team",
+    "contact": "Contact",
+    "cta": "Let's talk",
+    "lang": "عربي"
+  },
+  "hero": {
+    "eyebrow": "Software Team",
+    "title": "Building smart solutions together.",
+    "subtitle": "We turn ideas and business needs into reliable digital products that create lasting value.",
+    "primary": "Explore our work",
+    "secondary": "Get in touch"
+  },
+  "work": {
+    "title": "Selected work",
+    "subtitle": "A few projects we're proud of.",
+    "viewAll": "View all work",
+    "status": {
+      "launched": "Launched",
+      "in_development": "In development",
+      "concept": "Concept"
+    }
+  },
+  "services": {
+    "title": "What we build",
+    "items": [
+      {
+        "icon": "Globe",
+        "title": "Premium websites",
+        "text": "Fast, bilingual, SEO-ready websites that make a brand look the way it deserves."
+      },
+      {
+        "icon": "LayoutDashboard",
+        "title": "Dashboards & internal platforms",
+        "text": "Multi-role systems with permissions, workflows and reports your team actually uses."
+      },
+      {
+        "icon": "Smartphone",
+        "title": "Mobile apps",
+        "text": "iOS and Android apps from one codebase, designed for real daily use."
+      },
+      {
+        "icon": "Plug",
+        "title": "Integrations & automation",
+        "text": "Connecting payments, ERP systems like Odoo, WhatsApp and AI to remove manual work."
+      }
+    ]
+  },
+  "process": {
+    "title": "How we work",
+    "subtitle": "Clear steps, fixed price per step, and a live demo every two weeks.",
+    "steps": [
+      {
+        "title": "Discover",
+        "text": "We learn your business, users and goals, and agree on a clear scope."
+      },
+      {
+        "title": "Plan & design",
+        "text": "You see and try every screen before a line of code is written."
+      },
+      {
+        "title": "Build in steps",
+        "text": "We deliver small releases you can review and use early."
+      },
+      {
+        "title": "Validate",
+        "text": "We test on real devices and with real users before every release."
+      },
+      {
+        "title": "Deliver & support",
+        "text": "We launch, train your team, and stay to maintain and improve."
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience you can rely on",
+    "text": "Led by an engineer who has built government-scale, bilingual, multi-role platforms.",
+    "link": "More about us",
+    "solutions": {
+      "title": "End-to-end solutions",
+      "text": "We take products from first idea to production: discovery, UX, frontend, APIs, integrations and launch, delivered by one accountable team. You get a complete, maintainable solution, not disconnected pieces."
+    }
+  },
+  "team": {
+    "title": "The team",
+    "subtitle": "Small and senior. You always talk to the people doing the work."
+  },
+  "cta": {
+    "title": "Have a project in mind?",
+    "text": "Tell us about it. We usually reply the same day.",
+    "whatsapp": "Message on WhatsApp",
+    "email": "Send an email"
+  },
+  "caseStudy": {
+    "back": "Back to work",
+    "atAGlance": "At a glance",
+    "industry": "Industry",
+    "platform": "Platform",
+    "duration": "Duration",
+    "team": "Team",
+    "stack": "Tech stack",
+    "visit": "Visit live site",
+    "next": "Next project",
+    "englishOnly": "This case study is available in English only.",
+    "client": "Client",
+    "year": "Year",
+    "role": "Role",
+    "gallery": "Screens"
+  },
+  "about": {
+    "title": "About the studio",
+    "intro": "[TODO] 3–4 sentences: why you started the studio, what you care about (quality, honesty, clear communication), and who you build for.",
+    "experienceTitle": "The lead's experience",
+    "skillsTitle": "Skills & tools"
+  },
+  "contact": {
+    "title": "Let's talk",
+    "text": "The fastest way to reach us is email. We usually reply the same day.",
+    "formTitle": "Or send a message",
+    "name": "Your name",
+    "company": "Company",
+    "message": "Tell us about your project",
+    "send": "Send"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "ui": {
+    "skipToContent": "Skip to content",
+    "mainNav": "Main",
+    "footerNav": "Footer",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "home": "Home",
+    "breadcrumb": "Breadcrumb",
+    "technologies": "Technologies",
+    "close": "Close",
+    "previous": "Previous image",
+    "next": "Next image",
+    "openImage": "Open image",
+    "email": "Email",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "location": "Location",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "notFoundTitle": "Page not found",
+    "notFoundText": "The page you're looking for doesn't exist or has moved.",
+    "backHome": "Back to home",
+    "lightMode": "Light mode"
+  }
+}

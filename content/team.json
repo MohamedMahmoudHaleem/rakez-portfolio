@@ -1,0 +1,46 @@
+[
+  {
+    "id": "mohamed-haleem",
+    "name": "Mohamed Haleem",
+    "nameAr": "محمد حليم",
+    "role": "Founder & Technical Lead",
+    "roleAr": "المؤسس والقائد التقني",
+    "bio": "Senior frontend engineer (React, Next.js, TypeScript) who has built bilingual, multi-role platforms at government scale. Leads every Rakeez project personally.",
+    "bioAr": "مهندس واجهات أمامية أول (React و Next.js و TypeScript)، بنى منصات ثنائية اللغة ومتعددة الأدوار على نطاق حكومي، ويقود كل مشروع في ركيز بنفسه.",
+    "photo": "/images/team/mohamed-haleem.jpg",
+    "linkedin": "https://www.linkedin.com/in/mohamed-mahmoud-060bb1b4/"
+  },
+  {
+    "id": "ui-designer",
+    "name": "[TODO] Name",
+    "nameAr": "[TODO] الاسم",
+    "role": "UI/UX Designer",
+    "roleAr": "مصمم واجهات وتجربة مستخدم",
+    "bio": "[TODO] One line about their experience.",
+    "bioAr": "[TODO] سطر واحد عن خبرته.",
+    "photo": "/images/team/ui-designer.jpg",
+    "linkedin": "[TODO]"
+  },
+  {
+    "id": "backend-engineer",
+    "name": "[TODO] Name",
+    "nameAr": "[TODO] الاسم",
+    "role": "Backend Engineer (Node.js)",
+    "roleAr": "مهندس خوادم (Node.js)",
+    "bio": "[TODO] One line about their experience.",
+    "bioAr": "[TODO] سطر واحد عن خبرته.",
+    "photo": "/images/team/backend-engineer.jpg",
+    "linkedin": "[TODO]"
+  },
+  {
+    "id": "mobile-engineer",
+    "name": "[TODO] Name",
+    "nameAr": "[TODO] الاسم",
+    "role": "Mobile Engineer (React Native)",
+    "roleAr": "مهندس تطبيقات موبايل (React Native)",
+    "bio": "[TODO] One line about their experience.",
+    "bioAr": "[TODO] سطر واحد عن خبرته.",
+    "photo": "/images/team/mobile-engineer.jpg",
+    "linkedin": "[TODO]"
+  }
+]

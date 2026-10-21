@@ -1,0 +1,30 @@
+{
+  "studioName": "Rakeez",
+  "studioNameAr": "ركيز",
+  "leadName": "Mohamed Haleem",
+  "leadNameAr": "محمد حليم",
+  "leadTitle": "Founder & Technical Lead",
+  "leadTitleAr": "المؤسس والقائد التقني",
+  "defaultLocale": "en",
+  "locales": [
+    "en",
+    "ar"
+  ],
+  "location": "Cairo, Egypt",
+  "locationAr": "القاهرة، مصر",
+  "contact": {
+    "email": "mohamed.haleem9009@gmail.com",
+    "phone": "+201003207647",
+    "whatsapp": "https://wa.me/201003207647",
+    "linkedin": "https://www.linkedin.com/in/mohamed-mahmoud-060bb1b4/",
+    "github": "https://github.com/MohamedMahmoudHaleem",
+    "calendlyUrl": "[TODO] optional booking link"
+  },
+  "seo": {
+    "siteUrl": "[TODO] https://yourdomain.com",
+    "description": "Rakeez is a software team that turns ideas and business needs into reliable digital products.",
+    "descriptionAr": "ركيز فريق برمجيات يحوّل الأفكار واحتياجات الأعمال إلى منتجات رقمية موثوقة."
+  },
+  "descriptor": "Software Team",
+  "descriptorAr": "فريق برمجيات"
+}

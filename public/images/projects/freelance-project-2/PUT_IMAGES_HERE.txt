@@ -1,0 +1,1 @@
+Put cover.jpg, desktop-*.jpg, mobile-*.png here. See IMAGES.md.

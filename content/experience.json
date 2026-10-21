@@ -1,0 +1,45 @@
+{
+  "showClientNames": false,
+  "note": "Experience of the technical lead as Senior Frontend Developer at an enterprise software company. Shown without screenshots or confidential details.",
+  "noteAr": "خبرة القائد التقني كمهندس واجهات أمامية أول في شركة برمجيات للمؤسسات، تُعرض دون صور أو تفاصيل سرية.",
+  "highlights": [
+    {
+      "title": "National digital transformation platform", "titleAr": "منصة وطنية للتحول الرقمي",
+      "clientName": "Qiyas – Digital Transformation Authority (KSA)",
+      "text": "Built core modules used by government entities to track transformation progress, including 10+ KPI dashboards and formal PDF report generation.",
+      "textAr": "بناء وحدات أساسية تستخدمها جهات حكومية لمتابعة التحول الرقمي، تشمل أكثر من 10 لوحات مؤشرات وتوليد تقارير PDF رسمية.",
+      "tags": ["React", "Chart.js", "React PDF"]
+    },
+    {
+      "title": "Government operations platform", "titleAr": "منصة عمليات حكومية",
+      "clientName": "Eastern Province Emirate (KSA)",
+      "text": "Large internal platform with 20+ modules, resource tracking and workflows, and permission-based views for employee, admin and super-admin roles (200+ users).",
+      "textAr": "منصة داخلية كبيرة بأكثر من 20 وحدة، لتتبع الموارد وسير العمل، مع واجهات حسب الصلاحيات لأدوار الموظف والمدير والمدير العام (أكثر من 200 مستخدم).",
+      "tags": ["Next.js", "TypeScript", "MUI"]
+    },
+    {
+      "title": "API gateway management dashboard", "titleAr": "لوحة إدارة بوابة الواجهات البرمجية",
+      "clientName": "",
+      "text": "Dashboard for companies to manage API routes, rate limits, authentication policies and traffic analytics without backend support.",
+      "textAr": "لوحة تتيح للشركات إدارة مسارات الواجهات البرمجية وحدود الاستخدام وسياسات المصادقة وتحليلات الحركة دون دعم من فريق الخوادم.",
+      "tags": ["Next.js", "TypeScript", "shadcn/ui"]
+    },
+    {
+      "title": "Bilingual HR performance system", "titleAr": "نظام تقييم أداء ثنائي اللغة",
+      "clientName": "",
+      "text": "Arabic/English internal platform for measuring and evaluating employee performance, with full RTL and LTR support.",
+      "textAr": "منصة داخلية بالعربية والإنجليزية لقياس وتقييم أداء الموظفين، بدعم كامل للاتجاهين.",
+      "tags": ["React", "TypeScript", "RTL"]
+    },
+    {
+      "title": "AI-powered automation platform", "titleAr": "منصة أتمتة بالذكاء الاصطناعي",
+      "clientName": "",
+      "text": "Frontend of an RPA platform where users describe a task in chat and automate it, integrated with AI APIs and n8n workflows.",
+      "textAr": "الواجهة الأمامية لمنصة أتمتة يصف فيها المستخدم المهمة في محادثة فتُنفذ تلقائيًا، مع الربط بواجهات الذكاء الاصطناعي و n8n.",
+      "tags": ["Next.js", "AI APIs", "n8n"]
+    }
+  ],
+  "skills": ["TypeScript", "JavaScript (ES6+)", "React", "Next.js", "TanStack Query", "Zustand", "React Hook Form", "Tailwind CSS", "MUI", "shadcn/ui", "HeroUI", "REST APIs", "Jest", "React Testing Library", "SSR & SEO", "i18n / RTL", "Micro Frontends"],
+  "earlier": "Earlier: Senior STEM Engineer (Bedigital, 2021–2023) and R&D Engineer (Engineeius, 2017–2021). B.Sc. Computer Science, Shorouk Academy (2017).",
+  "earlierAr": "سابقًا: مهندس STEM أول (Bedigital، 2021 – 2023)، ومهندس بحث وتطوير (Engineeius، 2017 – 2021). بكالوريوس علوم الحاسب، أكاديمية الشروق (2017)."
+}
