@@ -1,0 +1,29 @@
+{
+  "note": "Products that members of the team helped build in previous roles. Shown as team experience, not as Rakeez Tech client work.",
+  "items": [
+    {
+      "id": "instapay",
+      "name": "InstaPay", "nameAr": "إنستاباي",
+      "category": "Fintech", "categoryAr": "تكنولوجيا مالية",
+      "text": "Egypt's instant payment app: send and collect money, pay bills and manage bank accounts in real time.",
+      "textAr": "تطبيق الدفع اللحظي في مصر: إرسال واستقبال الأموال ودفع الفواتير وإدارة الحسابات البنكية لحظيًا.",
+      "image": "/images/track-record/instapay.jpg"
+    },
+    {
+      "id": "phi-wallet",
+      "name": "Phi Wallet", "nameAr": "Phi Wallet",
+      "category": "Fintech", "categoryAr": "تكنولوجيا مالية",
+      "text": "A digital gold wallet for buying, selling and storing 999.9 LBMA-certified gold in secure Swiss vaults.",
+      "textAr": "محفظة ذهب رقمية لشراء وبيع وحفظ ذهب عيار 999.9 معتمد من LBMA في خزائن آمنة بسويسرا.",
+      "image": "/images/track-record/phi-wallet.jpg"
+    },
+    {
+      "id": "filgoal",
+      "name": "FilGoal", "nameAr": "في الجول",
+      "category": "Sports media", "categoryAr": "إعلام رياضي",
+      "text": "Egypt's leading sports news platform since 2001, delivering live scores, match coverage and breaking news to millions of fans.",
+      "textAr": "منصة الأخبار الرياضية الأولى في مصر منذ 2001، تقدّم النتائج المباشرة وتغطية المباريات والأخبار العاجلة لملايين المشجعين.",
+      "image": "/images/track-record/filgoal.jpg"
+    }
+  ]
+}

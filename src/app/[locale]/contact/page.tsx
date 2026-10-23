@@ -25,7 +25,19 @@ export default async function ContactPage({ params }: LocaleParams) {
         <ContactOptions locale={locale} cta={cta} ui={ui} />
         <ContactForm
           email={siteConfig.contact.email}
-          labels={{ title: contact.formTitle, name: contact.name, company: contact.company, message: contact.message, send: contact.send }}
+          labels={{
+            title: contact.formTitle,
+            name: contact.name,
+            email: contact.email,
+            company: contact.company,
+            message: contact.message,
+            send: contact.send,
+            sending: contact.sending,
+            successTitle: contact.successTitle,
+            successText: contact.successText,
+            sendAnother: contact.sendAnother,
+            error: contact.error,
+          }}
         />
       </div>
     </Section>

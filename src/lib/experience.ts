@@ -6,6 +6,7 @@ import { realOrUndefined } from "./content";
 /** The lead's experience for one locale. Client names appear only when showClientNames is true. */
 export function getExperience(locale: Locale) {
   const highlights: ExperienceHighlight[] = experience.highlights.map((item) => ({
+    icon: item.icon,
     title: pick(locale, item.title, item.titleAr),
     text: pick(locale, item.text, item.textAr),
     tags: item.tags,
@@ -15,7 +16,11 @@ export function getExperience(locale: Locale) {
   return {
     note: pick(locale, experience.note, experience.noteAr),
     earlier: pick(locale, experience.earlier, experience.earlierAr),
-    skills: experience.skills,
+    skillGroups: experience.skillGroups.map((group) => ({
+      icon: group.icon,
+      title: pick(locale, group.title, group.titleAr),
+      items: group.items,
+    })),
     highlights,
   };
 }

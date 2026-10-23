@@ -1,13 +1,19 @@
 import {
+  Bot,
+  Building,
   Code2,
   Globe,
+  Landmark,
   Layers,
   LayoutDashboard,
+  Network,
   Plug,
+  Server,
   ShieldCheck,
   Smartphone,
   TrendingUp,
   Users,
+  WalletCards,
   type LucideIcon,
 } from "lucide-react";
 
@@ -16,15 +22,21 @@ import {
  * One map = type safety + a single place to add new icons.
  */
 export const ICONS = {
+  Bot,
+  Building,
   Code2,
   Globe,
+  Landmark,
   Layers,
   LayoutDashboard,
+  Network,
   Plug,
+  Server,
   ShieldCheck,
   Smartphone,
   TrendingUp,
   Users,
+  WalletCards,
 } satisfies Record<string, LucideIcon>;
 
 export type IconName = keyof typeof ICONS;

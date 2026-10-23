@@ -23,6 +23,14 @@
       "launched": "Launched",
       "in_development": "In development",
       "concept": "Concept"
+    },
+    "trackRecord": {
+      "eyebrow": "Team experience",
+      "title": "Engineered by people behind",
+      "titleHighlight": "products used by millions",
+      "text": "Our engineers have been part of the teams behind leading fintech and media products, in Egypt and internationally. That experience now goes into every Rakeez Tech project.",
+      "label": "Built by members of our team",
+      "disclaimer": "Team members contributed to these products in previous roles. Product names and trademarks belong to their respective owners."
     }
   },
   "services": {
@@ -40,8 +48,8 @@
       },
       {
         "icon": "Smartphone",
-        "title": "Mobile apps",
-        "text": "iOS and Android apps from one codebase, designed for real daily use."
+        "title": "Cross-platform mobile apps",
+        "text": "iOS and Android apps built with React Native from one codebase: faster to launch, easier to maintain, and designed for real daily use."
       },
       {
         "icon": "Plug",
@@ -78,11 +86,19 @@
   },
   "experience": {
     "title": "Experience you can rely on",
-    "text": "Led by an engineer who has built government-scale, bilingual, multi-role platforms.",
+    "text": "Led by an engineer who has built government-scale, bilingual, multi-role platforms, with a team experienced in fintech and high-traffic products.",
     "link": "More about us",
     "solutions": {
       "title": "End-to-end solutions",
       "text": "We take products from first idea to production: discovery, UX, frontend, APIs, integrations and launch, delivered by one accountable team. You get a complete, maintainable solution, not disconnected pieces."
+    },
+    "fintech": {
+      "title": "Fintech & digital payments",
+      "text": "Our team has shipped consumer fintech in Egypt and internationally, including InstaPay and Phi Wallet: instant transfers, bill payments, identity verification and digital gold trading, built with security first.",
+      "tags": [
+        "InstaPay",
+        "Phi Wallet"
+      ]
     }
   },
   "team": {
@@ -113,18 +129,27 @@
   },
   "about": {
     "title": "About the studio",
-    "intro": "[TODO] 3–4 sentences: why you started the studio, what you care about (quality, honesty, clear communication), and who you build for.",
+    "tagline": "Senior engineers. Startup speed. Software built to last.",
+    "intro": "Rakeez Tech started with a simple belief: every business deserves the kind of engineering usually reserved for big tech. Our team has built government-scale platforms, fintech apps and high-traffic media products, and we bring that same standard to every client, from the first idea to launch day. You work directly with the people building your product, with clear communication, honest timelines and code that is easy to grow.",
+    "contactLabel": "Email us",
     "experienceTitle": "The lead's experience",
-    "skillsTitle": "Skills & tools"
+    "skillsTitle": "Skills & tools",
+    "skillsText": "The tools we use every day, across the full stack."
   },
   "contact": {
     "title": "Let's talk",
     "text": "The fastest way to reach us is email. We usually reply the same day.",
     "formTitle": "Or send a message",
     "name": "Your name",
+    "email": "Your email",
     "company": "Company",
     "message": "Tell us about your project",
-    "send": "Send"
+    "send": "Send",
+    "sending": "Sending…",
+    "successTitle": "Message sent",
+    "successText": "Thanks for reaching out. We'll get back to you within one business day.",
+    "sendAnother": "Send another message",
+    "error": "Something went wrong. Please try again, or email us directly at"
   },
   "footer": {
     "rights": "All rights reserved."

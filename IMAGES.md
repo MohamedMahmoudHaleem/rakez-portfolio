@@ -15,7 +15,7 @@
 | `desktop-1.jpg` … `desktop-4.jpg` | 1440×900 | Desktop screenshots without browser chrome |
 | `mobile-1.png` … `mobile-3.png` | 390×844 | Mobile screenshots |
 
-Slugs: `freelance-project-1`, `freelance-project-2`, `real-estate-platform-concept`.
+Slugs: `ecovet`, `freelance-project-2`, `real-estate-platform-concept`.
 
 ## Team: `public/images/team/`
 `mohamed-haleem.jpg`, `ui-designer.jpg`, `backend-engineer.jpg`, `mobile-engineer.jpg` — square, 600×600+, same background style for everyone.

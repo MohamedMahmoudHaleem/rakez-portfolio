@@ -13,6 +13,7 @@ import { getExperience } from "@/lib/experience";
 import { getDictionary } from "@/lib/dictionary";
 import { pageMetadata } from "@/lib/metadata";
 import { getProjects } from "@/lib/projects";
+import { getTrackRecord } from "@/lib/track-record";
 // import { getTeam } from "@/lib/team";
 import { resolveLocale, type LocaleParams } from "@/lib/page";
 
@@ -37,6 +38,7 @@ export default async function HomePage({ params }: LocaleParams) {
         dictionary={dictionary.work}
         techLabel={dictionary.ui.technologies}
         projects={projects}
+        trackRecord={getTrackRecord(locale)}
         covers={Object.fromEntries(projects.map(({ frontmatter }) => [frontmatter.slug, existingAsset(frontmatter.cover)]))}
       />
       <ProcessSection dictionary={dictionary.process} />
@@ -44,6 +46,7 @@ export default async function HomePage({ params }: LocaleParams) {
         locale={locale}
         dictionary={dictionary.experience}
         highlights={getExperience(locale).highlights.slice(0, 3)}
+        fintech={dictionary.experience.fintech}
         techLabel={dictionary.ui.technologies}
       />
       {/* Team section hidden for now: clients should contact the studio, not individual members.

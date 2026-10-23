@@ -55,6 +55,8 @@ export type LocalizedTeamMember = Pick<TeamMember, "id" | "photo" | "linkedin"> 
 
 /** One highlight of the lead's experience, resolved for one locale. */
 export type ExperienceHighlight = {
+  /** Icon name from lib/icons.ts. */
+  icon: string;
   title: string;
   text: string;
   tags: string[];

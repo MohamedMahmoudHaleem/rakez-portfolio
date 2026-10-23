@@ -3,7 +3,8 @@ import path from "node:path";
 import matter from "gray-matter";
 import type { Locale } from "@/config/site";
 import type { Project, ProjectFrontmatter } from "@/types/content";
-import { isTodo, SHOW_TODO_PLACEHOLDERS } from "./content";
+import { existingAsset } from "./assets";
+import { isTodo } from "./content";
 
 const PROJECTS_DIR = path.join(process.cwd(), "content", "projects");
 
@@ -30,11 +31,14 @@ export function getProject(locale: Locale, slug: string): Project | undefined {
   return english && { ...english, isFallback: true };
 }
 
-/** All visible case studies sorted by `order`. Unfinished ones are hidden when placeholders are off. */
+/**
+ * All visible case studies sorted by `order`.
+ * A project only appears once it has a real title and a cover image, so the site never shows empty cards.
+ */
 export function getProjects(locale: Locale): Project[] {
   return getProjectSlugs()
     .map((slug) => getProject(locale, slug))
     .filter((project): project is Project => Boolean(project))
-    .filter(({ frontmatter }) => SHOW_TODO_PLACEHOLDERS || !isTodo(frontmatter.title))
+    .filter(({ frontmatter }) => !isTodo(frontmatter.title) && Boolean(existingAsset(frontmatter.cover)))
     .sort((a, b) => a.frontmatter.order - b.frontmatter.order);
 }
